@@ -10,10 +10,10 @@ public class FunRestController {
 
     // inject properties for: coach.name and team.name
 
-    @Value("${coach.name")
+    @Value("${coach.name}")
     private  String coachName;
 
-    @Value("${team.name")
+    @Value("${team.name}")
     private String teamName;
 
     // expose new endpoint for "teaminfo"
